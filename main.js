@@ -13,7 +13,7 @@ module.exports = {
       tax = ((dollars - 20) * 0.05) + 1.7;
       return tax;
     } else {
-      tax = ((dollars - 10) * 0.03) + 2.2;
+      tax = ((dollars - 30) * 0.03) + 2.2;
       return tax;
     }
   }
